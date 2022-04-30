@@ -29,7 +29,7 @@ function getMatrixElementsSum(matrix) {
       if (matrix[j][i] !== 0) {
         sum += matrix[j][i];
       } else {
-        return row;
+        break;
       }
     }
   }
