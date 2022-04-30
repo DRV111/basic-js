@@ -15,15 +15,15 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  */
 function countCats(catsArr) {
-  let kittyKittys = [];
+  let kittyKitties = [];
   for (let i = 0; i < catsArr.length; i++) {
     for (let j = 0; j < catsArr[i].length; j++) {
       if (catsArr[i][j] === '^^') {
-        kittyKittys.push(catsArr[i][j]);
+        kittyKitties.push(catsArr[i][j]);
       }
     }
   }
-  return kittyKittys.length;
+  return kittyKitties.length;
   // remove line with error and write your code here
 }
 
